@@ -38,9 +38,10 @@ end
 puts last_student_by_method
 
 def first_second_and_third_students
-  STUDENT_NAMES.first
-  STUDENT_NAMES[1]
-  STUDENT_NAMES[2]
+  array = [STUDENT_NAMES.first,
+  STUDENT_NAMES[1],
+  STUDENT_NAMES[2]]
+  puts array
 end
 
 puts first_second_and_third_students
