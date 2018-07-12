@@ -41,7 +41,7 @@ def first_second_and_third_students
   array = [STUDENT_NAMES.first,
   STUDENT_NAMES[1],
   STUDENT_NAMES[2]]
-  puts array
+  array
 end
 
 puts first_second_and_third_students
